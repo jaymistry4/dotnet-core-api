@@ -158,7 +158,6 @@ namespace DotNetCore.API.Models
 
         public DbSet<StockItem> StockItems { get; set; }
 
-        public DbSet<Member> Members { get; set; }
     }
 #pragma warning restore CS1591
 }

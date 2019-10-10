@@ -34,30 +34,12 @@ namespace DotNetCore.API.Models
 
             return query;
         }
-
-        public static IQueryable<Member> GetMembers(this WideWorldImportersDbContext dbContext, int pageSize = 10, int pageNumber = 1, int? lastEditedBy = null, int? colorID = null, int? outerPackageID = null, int? supplierID = null, int? unitPackageID = null)
-        {
-            // Get query from DbSet
-            var query = dbContext.Members.AsQueryable();
-
-            // Filter by: 'CommunityID'
-            if (supplierID.HasValue)
-                query = query.Where(item => item.CommunityID == supplierID);
-
-            return query;
-        }
-
+        
         public static async Task<StockItem> GetStockItemsAsync(this WideWorldImportersDbContext dbContext, StockItem entity)
             => await dbContext.StockItems.FirstOrDefaultAsync(item => item.StockItemID == entity.StockItemID);
 
         public static async Task<StockItem> GetStockItemsByStockItemNameAsync(this WideWorldImportersDbContext dbContext, StockItem entity)
-            => await dbContext.StockItems.FirstOrDefaultAsync(item => item.StockItemName == entity.StockItemName);
-
-        public static async Task<Member> GetMembersAsync(this WideWorldImportersDbContext dbContext, Member entity)
-            => await dbContext.Members.FirstOrDefaultAsync(item => item.ID == entity.ID);
-
-        public static async Task<Member> GetMemberNameAsync(this WideWorldImportersDbContext dbContext, Member entity)
-            => await dbContext.Members.FirstOrDefaultAsync(item => item.FirstName == entity.FirstName);
+            => await dbContext.StockItems.FirstOrDefaultAsync(item => item.StockItemName == entity.StockItemName);        
     }
 
     public static class IQueryableExtensions
