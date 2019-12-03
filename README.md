@@ -8,7 +8,6 @@ Asp Dot Net Core Api with multiple features.
 * Integration test (In memory, Actual database)
 * Unit test case with In Memory Database
 * Unit test case with Xunit
-* Unit test case with Xunit
 * JWT token - Authorization Policy (Security Bearer Token)
 * Custom exception handling middleware (Global error handling)
 * Logger with NLog library
