@@ -14,6 +14,7 @@ Asp Dot Net Core Api with multiple features.
 * Cross Origin Request policy
 * Generic response for all the API calls
 
+
  Example of generic api response:
  
  {
