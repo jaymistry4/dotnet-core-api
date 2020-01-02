@@ -28,3 +28,24 @@ Asp Dot Net Core Api with multiple features.
   "pageCount": 1
 }
 
+-------
+
+Prerequisite
+
+1) Change the xml documentation path.
+
+Visual studio -> View menu -> DotNetCore.API properties -> Build -> Output -> XML documentation file: -> Here change the path of XML documentation
+
+Current XML documentation path is: C:\Users\jmmistry\Documents\DotNetCore.API.xml
+
+Change the user name "jmmistry" to your PC's user name.
+
+Example: C:\Users\[**Your PC's user name **]\Documents\DotNetCore.API.xml
+
+2) MS SQL Script
+
+Folder: dotnet-core-api\DotNetCore.API\wwwroot\Database Script
+Script Name: WideWorldImporters.sql
+
+
+
