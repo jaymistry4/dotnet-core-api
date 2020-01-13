@@ -32,9 +32,9 @@
 -------
 
 
-#### Prerequisites
+## Prerequisites
 
-## Visual Studio 2017/Visual Studio Code and SQL Server
+#### Visual Studio 2017/Visual Studio Code and SQL Server
 
 
 - Change the xml documentation path.
