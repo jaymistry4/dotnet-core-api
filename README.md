@@ -1,5 +1,6 @@
-# dotnet-core-api
-Asp Dot Net Core Api with multiple features.
+# A simple, cross platform, modularized API system built on .NET Core
+
+## Asp Dot Net Core Api with multiple features.
 
 * API Pagination
 * Entity framework
@@ -30,9 +31,13 @@ Asp Dot Net Core Api with multiple features.
 
 -------
 
-Prerequisite
 
-1) Change the xml documentation path.
+#### Prerequisites
+
+## Visual Studio 2017/Visual Studio Code and SQL Server
+
+
+- Change the xml documentation path.
 
 Visual studio -> View menu -> DotNetCore.API properties -> Build -> Output -> XML documentation file: -> Here change the path of XML documentation
 
@@ -42,10 +47,15 @@ Change the user name "jmmistry" to your PC's user name.
 
 Example: C:\Users\[**Your PC's user name **]\Documents\DotNetCore.API.xml
 
-2) MS SQL Script
+- MS SQL Script
 
 Folder: dotnet-core-api\DotNetCore.API\wwwroot\Database Script
 Script Name: WideWorldImporters.sql
 
+#### Steps to run
 
+- Update the connection string in appsettings.json in DotNetCore.API
+- Build whole solution.
+- In Solution Explorer, make sure that DotNetCore.API is selected as the Startup Project
+- In Visual Studio, press "Control + F5".
 
