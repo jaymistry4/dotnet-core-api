@@ -1,5 +1,7 @@
 # A simple, cross platform, modularized API system built on .NET Core
 
+[![Build Status](https://travis-ci.com/jaymistry4/dotnet-core-api.svg?branch=master)](https://travis-ci.com/jaymistry4/dotnet-core-api)
+
 ## Asp Dot Net Core Api with multiple features.
 
 * API Pagination
