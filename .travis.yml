@@ -1,2 +1,5 @@
 language: csharp
-solution: DotNetCore.API.sln
+mono: none
+dotnet: 2.2
+script:
+ - dotnet restore
