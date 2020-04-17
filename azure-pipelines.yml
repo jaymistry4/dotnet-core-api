@@ -20,22 +20,19 @@ steps:
   displayName: 'Use .NET Core sdk'
   inputs:
     packageType: sdk
-    version: 2.2.101
-    installationPath: $(Agent.ToolsDirectory)/dotnet
+    version: '2.2.x'
+    includePreviewVersions: true
 
 - task: DotNetCoreCLI@2
   inputs:
-    majorVersion: 2.2.101
     command: 'restore'
     feedsToUse: 'select'
     
 - task: DotNetCoreCLI@2
-  inputs:
-    majorVersion: 2.2.101    
+  inputs: 
     command: 'build'
 
 - task: DotNetCoreCLI@2
   inputs:
-    majorVersion: 2.2.101
     command: 'run'
 
