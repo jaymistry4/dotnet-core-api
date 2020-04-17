@@ -25,13 +25,17 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
+    majorVersion: 2.2.101
     command: 'restore'
     feedsToUse: 'select'
     
 - task: DotNetCoreCLI@2
   inputs:
+    majorVersion: 2.2.101    
     command: 'build'
 
 - task: DotNetCoreCLI@2
   inputs:
+    majorVersion: 2.2.101
     command: 'run'
+
