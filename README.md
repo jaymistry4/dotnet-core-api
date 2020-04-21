@@ -43,13 +43,9 @@
 
 Visual studio -> View menu -> DotNetCore.API properties -> Build -> Output -> XML documentation file: -> Here change the path of XML documentation
 
-Current XML documentation path is: C:\Users\jmmistry\Documents\DotNetCore.API.xml
+Current XML documentation path is: bin\Debug\DotNetCore.API.xml
 
-Change the user name "jmmistry" to your PC's user name.
-
-Example: C:\Users\[**Your PC's user name **]\Documents\DotNetCore.API.xml
-
-- MS SQL Script
+- Microsoft SQL Script
 
 Folder: dotnet-core-api\DotNetCore.API\wwwroot\Database Script
 Script Name: WideWorldImporters.sql
@@ -57,7 +53,10 @@ Script Name: WideWorldImporters.sql
 #### Steps to run
 
 - Update the connection string in appsettings.json in DotNetCore.API
-- Build whole solution.
+- Restore packages
+- Build the whole solution
 - In Solution Explorer, make sure that DotNetCore.API is selected as the Startup Project
-- In Visual Studio, press "Control + F5".
+- Create database, name it "WideWorldImporters"
+- Perform Migration or Use SQL script (WideWorldImporters.sql) to setup tables in database
+- In Visual Studio, press "Control + F5" or Run the program using command line
 
