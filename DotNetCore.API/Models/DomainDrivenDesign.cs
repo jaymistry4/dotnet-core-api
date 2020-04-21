@@ -114,14 +114,13 @@ namespace DotNetCore.API.Models
 
             builder
                 .Property(p => p.Tags)
-                .HasColumnType("nvarchar(max)")
-                .HasComputedColumnSql("json_query([CustomFields],N'$.Tags')");
+                .HasColumnType("nvarchar(max)");
+
 
             builder
                 .Property(p => p.SearchDetails)
                 .HasColumnType("nvarchar(max)")
-                .IsRequired()
-                .HasComputedColumnSql("concat([StockItemName],N' ',[MarketingComments])");
+                .IsRequired();
 
             // Columns with generated value on add or update
 

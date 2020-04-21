@@ -26,22 +26,16 @@ namespace DotNetCore.API
 #pragma warning disable CS1591
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
-            #region Logger
-
-            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config")); 
-            
-            #endregion
-
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {          
             #region CROSS ORIGIN REQUEST
 
             services.AddCors(option => option.AddPolicy("MyBlogPolicy", builder =>
@@ -146,6 +140,14 @@ namespace DotNetCore.API
             else
                 app.UseHsts();
 
+            #region Logger
+
+            LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), $"/nlog.{env.EnvironmentName}.config"));
+            LogManager.Configuration.Variables["connectionString"] = Configuration["AppSettings:ConnectionString"];
+            LogManager.KeepVariablesOnReload = true;
+            LogManager.Configuration.Reload();
+
+            #endregion
 
             #region Custom Exception Middleware
 

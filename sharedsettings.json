@@ -1,10 +1,4 @@
 {
-  "Logging": {
-    "LogLevel": {
-      "Default": "Warning"
-    }
-  },
-  "AllowedHosts": "*",
   "AppSettings": {
     //"ConnectionString": "server=(local);database=WideWorldImporters;integrated security=yes;",
     "ConnectionString": "server=DESKTOP-1FDPNEU\\SQLEXPRESS;database=WideWorldImporters;integrated security=yes;"

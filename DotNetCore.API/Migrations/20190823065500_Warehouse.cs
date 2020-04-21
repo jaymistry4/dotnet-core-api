@@ -36,7 +36,7 @@ namespace DotNetCore.API.Migrations
                     MarketingComments = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     InternalComments = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CustomFields = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Tags = table.Column<string>(type: "nvarchar(max)", nullable: true, computedColumnSql: "json_query([CustomFields],N'$.Tags')"),
+                    Tags = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SearchDetails = table.Column<string>(type: "nvarchar(max)", nullable: false, computedColumnSql: "concat([StockItemName],N' ',[MarketingComments])"),
                     LastEditedBy = table.Column<int>(type: "int", nullable: false),
                     ValidFrom = table.Column<DateTime>(type: "datetime", nullable: false),
@@ -44,7 +44,27 @@ namespace DotNetCore.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_StockItems", x => x.StockItemID);
+                    table.PrimaryKey("PK_dbo.StockItems", x => x.StockItemID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Log",
+                schema: "dbo",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    MachineName = table.Column<string>(type: "nvarchar(100)", nullable: false),
+                    Logged = table.Column<DateTime>(type: "datetime", nullable: false),
+                    Level = table.Column<string>(type: "nvarchar(50)", nullable: false),
+                    Message = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Logger = table.Column<string>(type: "nvarchar(250)", nullable: false),
+                    Callsite = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Exception = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_dbo.Log", x => x.Id);
                 });
         }
 
@@ -52,6 +72,10 @@ namespace DotNetCore.API.Migrations
         {
             migrationBuilder.DropTable(
                 name: "StockItems",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
+                name: "Log",
                 schema: "dbo");
         }
     }
