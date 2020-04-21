@@ -88,8 +88,7 @@ namespace DotNetCore.API.Migrations
 
                     b.Property<string>("Tags")
                         .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("nvarchar(max)")
-                        .HasComputedColumnSql("json_query([CustomFields],N'$.Tags')");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("TaxRate")
                         .IsRequired()
