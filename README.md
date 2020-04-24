@@ -1,13 +1,15 @@
-# A simple, cross platform, modularized API system built on .NET Core
+
+# A simple, cross platform, modularized API system built on .NET Core 3.1
 
 [![Build Status](https://travis-ci.com/jaymistry4/dotnet-core-api.svg?branch=master)](https://travis-ci.com/jaymistry4/dotnet-core-api)
 
 ## Asp Dot Net Core Api with multiple features.
 
+* .NET Core 3.1
 * API Pagination
 * Entity framework
 * Code first
-* Swagger
+* Swagger (Library: Swashbuckle.AspNetCore 5.3.3)
 * Integration test (In memory, Actual database)
 * Unit test case with In Memory Database
 * Unit test case with Xunit
@@ -36,14 +38,14 @@
 
 ## Prerequisites
 
-#### Visual Studio 2017/Visual Studio Code and SQL Server
+#### Visual Studio 2019/Visual Studio Code and SQL Server
 
 
 - Change the xml documentation path.
 
 Visual studio -> View menu -> DotNetCore.API properties -> Build -> Output -> XML documentation file: -> Here change the path of XML documentation
 
-Current XML documentation path is: bin\Debug\DotNetCore.API.xml
+Current XML documentation path is: "bin\Debug\DotNetCore.API.xml"
 
 - Microsoft SQL Script
 
