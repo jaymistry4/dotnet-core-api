@@ -1,22 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API", "DotNetCore.API\DotNetCore.API.csproj", "{CF2689D4-CDB1-4497-B50A-AC8A8EBF4119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API", "src\DotNetCore.API\DotNetCore.API.csproj", "{CF2689D4-CDB1-4497-B50A-AC8A8EBF4119}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API.UnitTests", "DotNetCore.API.UnitTests\DotNetCore.API.UnitTests.csproj", "{7E787911-206D-4562-B5AD-942264C72212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API.UnitTests", "test\DotNetCore.API.UnitTests\DotNetCore.API.UnitTests.csproj", "{7E787911-206D-4562-B5AD-942264C72212}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API.IntegrationTests", "DotNetCore.API.IntegrationTests\DotNetCore.API.IntegrationTests.csproj", "{EAB8A074-2B5C-4618-8138-DCC025B19620}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiver.Security.Bearer.Helpers", "Fiver.Security.Bearer.Helpers\Fiver.Security.Bearer.Helpers.csproj", "{443CFED3-78AA-43C3-A093-E4E91DC15B3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.API.IntegrationTests", "test\DotNetCore.API.IntegrationTests\DotNetCore.API.IntegrationTests.csproj", "{EAB8A074-2B5C-4618-8138-DCC025B19620}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postman", "postman", "{62AE2041-7A71-4166-8694-DE229986BFB3}"
 	ProjectSection(SolutionItems) = preProject
 		..\Fiver.Security.Bearer-master\Fiver.Security.Bearer-master\postman\Security - Jwt.postman_collection.json = ..\Fiver.Security.Bearer-master\Fiver.Security.Bearer-master\postman\Security - Jwt.postman_collection.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{4FE55B45-99D6-4B69-8243-8C0D1017A0AB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{A622B782-1312-48F4-899C-E6C8C6F7FCD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiver.Security.Bearer.Helpers", "libraries\Fiver.Security.Bearer.Helpers\Fiver.Security.Bearer.Helpers.csproj", "{D259B523-0569-4F0B-81BF-7CDE471FF691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "libraries\LoggerService\LoggerService.csproj", "{C136E16D-E9DD-408E-B502-C46C1435F9D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5EF535C6-DEF3-4347-A80C-3EA76D4311CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,17 +40,23 @@ Global
 		{EAB8A074-2B5C-4618-8138-DCC025B19620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAB8A074-2B5C-4618-8138-DCC025B19620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAB8A074-2B5C-4618-8138-DCC025B19620}.Release|Any CPU.Build.0 = Release|Any CPU
-		{443CFED3-78AA-43C3-A093-E4E91DC15B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{443CFED3-78AA-43C3-A093-E4E91DC15B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{443CFED3-78AA-43C3-A093-E4E91DC15B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{443CFED3-78AA-43C3-A093-E4E91DC15B3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FE55B45-99D6-4B69-8243-8C0D1017A0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FE55B45-99D6-4B69-8243-8C0D1017A0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FE55B45-99D6-4B69-8243-8C0D1017A0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FE55B45-99D6-4B69-8243-8C0D1017A0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D259B523-0569-4F0B-81BF-7CDE471FF691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D259B523-0569-4F0B-81BF-7CDE471FF691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D259B523-0569-4F0B-81BF-7CDE471FF691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D259B523-0569-4F0B-81BF-7CDE471FF691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C136E16D-E9DD-408E-B502-C46C1435F9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C136E16D-E9DD-408E-B502-C46C1435F9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C136E16D-E9DD-408E-B502-C46C1435F9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C136E16D-E9DD-408E-B502-C46C1435F9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E787911-206D-4562-B5AD-942264C72212} = {5EF535C6-DEF3-4347-A80C-3EA76D4311CF}
+		{EAB8A074-2B5C-4618-8138-DCC025B19620} = {5EF535C6-DEF3-4347-A80C-3EA76D4311CF}
+		{D259B523-0569-4F0B-81BF-7CDE471FF691} = {A622B782-1312-48F4-899C-E6C8C6F7FCD6}
+		{C136E16D-E9DD-408E-B502-C46C1435F9D4} = {A622B782-1312-48F4-899C-E6C8C6F7FCD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CF090FF-B247-4E77-ACA0-BE563174E234}
