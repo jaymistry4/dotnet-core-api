@@ -135,6 +135,12 @@ namespace DotNetCore.API
             });
 
             #endregion
+
+            //Require to host in IIS as per stackoverflow suggestion but I didn't find that it is require.
+            //services.Configure<IISServerOptions>(options =>
+            //{
+            //    options.AutomaticAuthentication = false;
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

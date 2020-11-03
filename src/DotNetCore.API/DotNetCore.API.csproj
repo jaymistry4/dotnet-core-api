@@ -1,32 +1,73 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>bcd9d1db-4eb9-4968-bc9b-22ced9433d54</UserSecretsId>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	<!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\DotNetCore.API.xml</DocumentationFile>
-  </PropertyGroup>
+  </PropertyGroup>-->
 
-  <ItemGroup>
-    <Compile Remove="Migrations\20190823064905_Warehouse.cs" />
-  </ItemGroup>
+	<PropertyGroup>
+		<DocumentationFile>bin\Debug\DotNetCore.API.xml</DocumentationFile>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\js\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Remove="Migrations\20190823064905_Warehouse.cs" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
-    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="wwwroot\js\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\libraries\Fiver.Security.Bearer.Helpers\Fiver.Security.Bearer.Helpers.csproj" />
-    <ProjectReference Include="..\..\libraries\LoggerService\LoggerService.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="wwwroot\theme\css\.DS_Store" />
+		<None Include="wwwroot\theme\css\bootstrap.map" />
+		<None Include="wwwroot\theme\css\main.map" />
+		<None Include="wwwroot\theme\fonts\fontawesome-webfont.svg" />
+		<None Include="wwwroot\theme\fonts\fontawesome-webfont.woff2" />
+		<None Include="wwwroot\theme\fonts\Linearicons-Free.svg" />
+		<None Include="wwwroot\theme\fonts\Linearicons-Free.woff2" />
+		<None Include="wwwroot\theme\img\.DS_Store" />
+		<None Include="wwwroot\theme\img\blog\.DS_Store" />
+		<None Include="wwwroot\theme\img\elements\.DS_Store" />
+		<None Include="wwwroot\theme\js\.DS_Store" />
+		<None Include="wwwroot\theme\js\easing.min.js" />
+		<None Include="wwwroot\theme\js\hoverIntent.js" />
+		<None Include="wwwroot\theme\js\isotope.pkgd.min.js" />
+		<None Include="wwwroot\theme\js\jquery.ajaxchimp.min.js" />
+		<None Include="wwwroot\theme\js\jquery.counterup.min.js" />
+		<None Include="wwwroot\theme\js\jquery.magnific-popup.min.js" />
+		<None Include="wwwroot\theme\js\jquery.nice-select.min.js" />
+		<None Include="wwwroot\theme\js\jquery.tabs.min.js" />
+		<None Include="wwwroot\theme\js\mail-script.js" />
+		<None Include="wwwroot\theme\js\main.js" />
+		<None Include="wwwroot\theme\js\owl.carousel.min.js" />
+		<None Include="wwwroot\theme\js\popper.min.js" />
+		<None Include="wwwroot\theme\js\simple-skillbar.js" />
+		<None Include="wwwroot\theme\js\superfish.min.js" />
+		<None Include="wwwroot\theme\js\vendor\bootstrap.min.js" />
+		<None Include="wwwroot\theme\js\vendor\jquery-2.2.4.min.js" />
+		<None Include="wwwroot\theme\js\waypoints.min.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+		<PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\libraries\Fiver.Security.Bearer.Helpers\Fiver.Security.Bearer.Helpers.csproj" />
+		<ProjectReference Include="..\..\libraries\LoggerService\LoggerService.csproj" />
+	</ItemGroup>
 
 </Project>

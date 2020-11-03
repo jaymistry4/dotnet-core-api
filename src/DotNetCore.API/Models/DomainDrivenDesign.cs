@@ -100,13 +100,13 @@ namespace DotNetCore.API.Models
 
             // Columns with default value
 
-            builder
-                .Property(p => p.StockItemID)
-                .HasColumnType("int")
-                .IsRequired()
-                .ValueGeneratedOnAdd()
-                .UseSqlServerIdentityColumn()
-                .Metadata.BeforeSaveBehavior = PropertySaveBehavior.Ignore;
+            //builder
+            //    .Property(p => p.StockItemID)
+            //    .HasColumnType("int")
+            //    .IsRequired()
+            //    .ValueGeneratedOnAdd()
+            //    .UseSqlServerIdentityColumn()
+            //    .Metadata.BeforeSaveBehavior = PropertySaveBehavior.Ignore;
 
             //.HasDefaultValueSql("NEXT VALUE FOR [dbo].[StockItemID]");
 

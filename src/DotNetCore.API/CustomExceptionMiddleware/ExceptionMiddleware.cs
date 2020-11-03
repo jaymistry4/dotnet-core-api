@@ -4,6 +4,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 using DotNetCore.API.Models;
+using Newtonsoft.Json;
 
 namespace DotNetCore.API.CustomExceptionMiddleware
 {
@@ -40,7 +41,7 @@ namespace DotNetCore.API.CustomExceptionMiddleware
             {
                 DidError = true,
                 StatusCode = context.Response.StatusCode,
-                Message = "Internal Server Error from the custom middleware."
+                Message = $"Internal Server Error from the custom middleware. {Environment.NewLine} {JsonConvert.SerializeObject(exception)}"
             }.ToString());
 
             //return context.Response.WriteAsync(new ErrorDetails()
