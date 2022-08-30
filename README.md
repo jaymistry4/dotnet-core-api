@@ -1,11 +1,14 @@
 
-# A simple, cross platform, modularized API system built on Microsoft .NET 5
+
+# A simple, cross platform, modularized API system built on Microsoft .NET 6
 
 [![Build Status](https://travis-ci.com/jaymistry4/dotnet-core-api.svg?branch=master)](https://travis-ci.com/jaymistry4/dotnet-core-api)
 
 ## Asp Dot Net Core Web and API project with multiple features.
 
-* Microsoft .NET 5
+* Microsoft .NET 6
+* Mongodb Database
+* SQL Database
 * API Pagination
 * Entity framework
 * Code first
@@ -40,8 +43,9 @@
 
 #### 1. Visual Studio 2019 or Visual Studio Code
 #### 2. SQL Server
-#### 3. Microsoft .NET 5 
-Link for .Net 5 download (https://dotnet.microsoft.com/download)
+#### 3. Microsoft .NET 6 
+#### 4. Mongodb Database
+Link for .Net 6 download (https://dotnet.microsoft.com/download)
 
 - Change the xml documentation path.
 
@@ -53,6 +57,12 @@ Current XML documentation path is: "bin\Debug\DotNetCore.API.xml"
 
 Folder: dotnet-core-api\DotNetCore.API\wwwroot\Database Script
 Script Name: WideWorldImporters.sql
+
+- Connecting Mongodb Server
+
+Open file "appsettings.json" at the location: dotnet-core-api\DotNetCore.API\
+
+Change the connection string value of "ConnectionBook" and "Connection" property.
 
 #### Steps to run
 
