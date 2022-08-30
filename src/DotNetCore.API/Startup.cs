@@ -1,4 +1,5 @@
-﻿using DotNetCore.API.Extensions;
+﻿using Data.Model;
+using DotNetCore.API.Extensions;
 using DotNetCore.API.Models;
 using Fiver.Security.Bearer.Helpers;
 using LoggerService;
@@ -11,12 +12,15 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using MongoDBUtility.Context;
+using MongoDBUtility.Interface;
 using NLog;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Threading.Tasks;
+
 namespace DotNetCore.API
 {
 #pragma warning disable CS1591
@@ -91,10 +95,18 @@ namespace DotNetCore.API
                 builder.UseSqlServer(Configuration["AppSettings:ConnectionString"]);
             });
 
+            services.Configure<Mongosettings>(options =>
+            {
+                options.ConnectionBook = Configuration.GetSection("MongoSettings:ConnectionBook").Value;
+                options.Connection = Configuration.GetSection("MongoSettings:Connection").Value;
+                options.DatabaseName = Configuration.GetSection("MongoSettings:DatabaseName").Value;
+            });
+
             // Set up dependency injection for controller's logger
             //services.AddScoped<ILogger, Logger<WarehouseController>>();
 
             services.AddSingleton<ILoggerManager, LoggerManager>();
+            services.AddTransient<IMongoDBUtilityContext, MongoDBUtilityContext>();
 
             #region Swagger
 

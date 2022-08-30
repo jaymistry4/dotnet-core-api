@@ -76,8 +76,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\Data\Data.csproj" />
 	  <ProjectReference Include="..\..\libraries\Fiver.Security.Bearer.Helpers\Fiver.Security.Bearer.Helpers.csproj" />
 	  <ProjectReference Include="..\..\libraries\LoggerService\LoggerService.csproj" />
+	  <ProjectReference Include="..\..\MongoDBUtility\MongoDBUtility.csproj" />
 	</ItemGroup>
 
 </Project>
