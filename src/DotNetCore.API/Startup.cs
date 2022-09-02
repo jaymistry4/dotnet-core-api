@@ -1,4 +1,5 @@
-﻿using Data.Model;
+﻿using AspNetCoreRateLimit;
+using Data.Model;
 using DotNetCore.API.Extensions;
 using DotNetCore.API.Models;
 using Fiver.Security.Bearer.Helpers;
@@ -148,6 +149,35 @@ namespace DotNetCore.API
 
             #endregion
 
+            #region Rate Limiting
+            
+            services.AddMemoryCache();
+            services.Configure<IpRateLimitOptions>(options =>
+            {
+                options.EnableEndpointRateLimiting = true;
+                options.StackBlockedRequests = false;
+                options.HttpStatusCode = 429;
+                options.RealIpHeader = "X-Real-IP";
+                options.ClientIdHeader = "X-ClientId";
+                options.GeneralRules = new List<RateLimitRule>
+                {
+                    new RateLimitRule
+                    {
+                        Endpoint = "*",
+                        Period = "10s",
+                        Limit = 5
+                    }
+                };
+            });
+
+            services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+            services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
+            services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+            services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
+            services.AddInMemoryRateLimiting(); 
+
+            #endregion
+
             //Require to host in IIS as per stackoverflow suggestion but I didn't find that it is require.
             //services.Configure<IISServerOptions>(options =>
             //{
@@ -217,6 +247,8 @@ namespace DotNetCore.API
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseIpRateLimiting();
 
             app.UseAuthorization();
 
