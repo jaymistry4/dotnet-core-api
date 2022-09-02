@@ -1,10 +1,71 @@
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the dotnet-core-api project. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-# A simple, cross platform, modularized API system built on Microsoft .NET 6
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jaymistry4/dotnet-core-api">
+    <img src="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">A simple, cross platform, modularized API system built on Microsoft .NET 6</h3>
+
+  <p align="center">
+    An awesome .net core 6 template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/jaymistry4/dotnet-core-api"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="http://jaymistry4-001-site3.gtempurl.com/" target="blank">View Demo</a>
+  </p>
+</div>
 
 [![Build Status](https://travis-ci.com/jaymistry4/dotnet-core-api.svg?branch=master)](https://travis-ci.com/jaymistry4/dotnet-core-api)
 
-## Asp Dot Net Core Web and API project with multiple features.
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#steps-to-run">Steps to run</a></li>
+      </ul>
+    </li>
+    <li><a href="#release-history">Release History</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+</li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Asp Dot Net Core Web and API project with multiple features.
+
+### Built With
+
+Microsoft .NET 6
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Features
 
 * Microsoft .NET 6
 * Mongodb Database
@@ -37,15 +98,20 @@
   "pageCount": 1
 }
 
--------
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Prerequisites
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-#### 1. Visual Studio 2019 or Visual Studio Code
-#### 2. SQL Server
-#### 3. Microsoft .NET 6 
-#### 4. Mongodb Database
+### Prerequisites
+
+##### 1. Visual Studio 2019 or Visual Studio Code
+##### 2. SQL Server
+##### 3. Microsoft .NET 6 
+##### 4. Mongodb Database
 Link for .Net 6 download (https://dotnet.microsoft.com/download)
 
 - Change the xml documentation path.
@@ -65,7 +131,10 @@ Open file "appsettings.json" at the location: dotnet-core-api\DotNetCore.API\
 
 Change the connection string value of "ConnectionBook" and "Connection" property.
 
-#### Steps to run
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Steps to run
 
 - Update the connection string in "appsettings.json" file in DotNetCore.API project
 - Restore packages
@@ -74,6 +143,8 @@ Change the connection string value of "ConnectionBook" and "Connection" property
 - Create database, name it "WideWorldImporters"
 - Perform Migration or Use SQL script (WideWorldImporters.sql) to setup tables in database
 - In Visual Studio, press "Control + F5" or Run the program using command line
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Release History
 
@@ -96,7 +167,10 @@ Change the connection string value of "ConnectionBook" and "Connection" property
 > 
 > - [#1](https://github.com/jaymistry4/dotnet-core-api/tree/DotNet6) .Net 6 version upgrade.
 
-## Contributors ✨
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -109,8 +183,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
