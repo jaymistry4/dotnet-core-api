@@ -23,7 +23,7 @@
     <a href="https://github.com/jaymistry4/dotnet-core-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://jaymistry4-001-site3.gtempurl.com/" target="blank">View Demo</a>
+    <a href="http://jaymistry4-001-site3.gtempurl.com/" target="_blank">View Demo</a>
   </p>
 </div>
 
