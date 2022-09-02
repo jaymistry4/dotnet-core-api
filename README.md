@@ -8,10 +8,11 @@
 
 * Microsoft .NET 6
 * Mongodb Database
-* SQL Database
+* MS SQL Database
 * API Pagination
 * Entity framework
 * Code first
+* Rate Limiting
 * Swagger (Library: Swashbuckle.AspNetCore 5.3.3)
 * Integration test (In memory, Actual database)
 * Unit test case with In Memory Database
@@ -73,4 +74,43 @@ Change the connection string value of "ConnectionBook" and "Connection" property
 - Create database, name it "WideWorldImporters"
 - Perform Migration or Use SQL script (WideWorldImporters.sql) to setup tables in database
 - In Visual Studio, press "Control + F5" or Run the program using command line
+
+## Release History
+
+> ### v0.1.2 (02-Sep-2022)
+> 
+> ##### New feature:
+> 
+> - [#1](https://github.com/jaymistry4/dotnet-core-api/tree/RateLimiting) Rate Limiting added.
+
+
+> ### v0.1.1 (01-Sep-2022)
+> 
+> ##### New features:
+> 
+> - [#1](https://github.com/jaymistry4/dotnet-core-api/tree/MongoDB) Mongodb Database connection added.
+
+> ### v0.1.0 (26-July-2022)
+> 
+> ##### New features:
+> 
+> - [#1](https://github.com/jaymistry4/dotnet-core-api/tree/DotNet6) .Net 6 version upgrade.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/jaymistry4"><img src="https://res.cloudinary.com/gujaratisamajmatrimony/image/upload/v1626961317/gsm/jay_mistry.jpg" width="100px;" alt=""/><br /><sub><b>Jay Mistry</b></sub></a><br /><a href="https://github.com/jaymistry4" title="Bug reports">🐛</a> <a href="https://github.com/jaymistry4" title="Code">💻</a> <a href="https://github.com/jaymistry4" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
