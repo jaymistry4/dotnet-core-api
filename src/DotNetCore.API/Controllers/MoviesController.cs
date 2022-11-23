@@ -6,10 +6,11 @@ using System.Linq;
 namespace DotNetCore.API.Controllers
 {
     [Authorize(Policy = "Member")]
-    [Route("movies")]
+    [Route("api/v1/[controller]")]
     public class MoviesController : Controller
     {
         [HttpGet]
+        [Route("movies")]
         public IActionResult Get()
         {
             //return Content("List of Movies");

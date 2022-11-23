@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace DotNetCore.API.Controllers
 {
     [ApiController]
-    [Route("api/book")]
+    [Route("api/v1/book")]
     public class MongoDBBookController : Controller
     {
         private readonly IMongoDBUtilityContext _context;

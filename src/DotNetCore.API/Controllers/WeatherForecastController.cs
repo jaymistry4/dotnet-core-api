@@ -8,7 +8,7 @@ using System.Linq;
 namespace DotNetCore.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -23,7 +23,15 @@ namespace DotNetCore.API.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Authorization token not required.
+        /// </summary>
+        /// <returns></returns>
+        /// <response code="200">Returns the weatherforecast list</response>
+        /// <response code="500">If there was an internal server error</response>
         [HttpGet(Name = "GetWeatherForecast")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(500)]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

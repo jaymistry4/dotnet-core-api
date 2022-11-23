@@ -15,10 +15,10 @@
     <img src="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">A simple, cross platform, modularized API system built on Microsoft .NET 6</h3>
+  <h3 align="center">A simple, cross platform, modularized API system built on Microsoft .NET 7</h3>
 
   <p align="center">
-    An awesome .net core 6 template to jumpstart your projects!
+    An awesome .net 7 template to jumpstart your projects!
     <br />
     <a href="https://github.com/jaymistry4/dotnet-core-api"><strong>Explore the docs »</strong></a>
     <br />
@@ -61,13 +61,13 @@ Asp Dot Net Core Web and API project with multiple features.
 
 ### Built With
 
-Microsoft .NET 6
+Microsoft .NET 7
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Features
 
-* Microsoft .NET 6
+* Microsoft .NET 7
 * Mongodb Database
 * MS SQL Database
 * API Pagination
@@ -108,11 +108,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-##### 1. Visual Studio 2019 or Visual Studio Code
+##### 1. Visual Studio 2022 or Visual Studio Code
 ##### 2. SQL Server
-##### 3. Microsoft .NET 6 
+##### 3. Microsoft .NET 7 
 ##### 4. Mongodb Database
-Link for .Net 6 download (https://dotnet.microsoft.com/download)
+Link for .Net 7 download (https://dotnet.microsoft.com/download)
 
 - Change the xml documentation path.
 
@@ -147,6 +147,13 @@ Change the connection string value of "ConnectionBook" and "Connection" property
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Release History
+
+> ### v0.2.0 (24-Sep-2022)
+> 
+> ##### New features:
+> 
+> - [#1](https://github.com/jaymistry4/dotnet-core-api/tree/DotNet7) .Net 7 version upgrade.
+> - [#2](https://github.com/jaymistry4/dotnet-core-api/tree/DotNet7) Encryption Decryption api added.
 
 > ### v0.1.2 (02-Sep-2022)
 > 
@@ -187,6 +194,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
-
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

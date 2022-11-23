@@ -1,15 +1,25 @@
-﻿using Fiver.Security.Bearer.Helpers;
+﻿using DotNetCore.API.Models.Token;
+using Fiver.Security.Bearer.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using DotNetCore.API.Models.Token;
 
 namespace DotNetCore.API.Controllers
 {
-    [Route("token")]
     [AllowAnonymous]
+    [Route("api/v1/[controller]")]
     public class TokenController : Controller
     {
+        /// <summary>
+        /// Generate token. (Username is "james" and Password is "bond")
+        /// </summary>
+        /// <param name="inputModel"></param>
+        /// <returns>JWT token.</returns>
+        /// <response code="200">Returns the temperature list</response>
+        /// <response code="500">If there was an internal server error</response>
         [HttpPost]
+        [Route("token")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(500)]
         public IActionResult Create([FromBody]LoginInputModel inputModel)
         {
             if (inputModel.Username != "james" && inputModel.Password != "bond")

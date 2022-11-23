@@ -2,6 +2,7 @@
 using Data.Model;
 using DotNetCore.API.Extensions;
 using DotNetCore.API.Models;
+using EncryptionDecryption;
 using Fiver.Security.Bearer.Helpers;
 using LoggerService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -108,6 +109,7 @@ namespace DotNetCore.API
 
             services.AddSingleton<ILoggerManager, LoggerManager>();
             services.AddTransient<IMongoDBUtilityContext, MongoDBUtilityContext>();
+            services.AddTransient<IEncryptDecrypt, EncryptDecrypt>();
 
             #region Swagger
 
