@@ -1,0 +1,3903 @@
+{
+  "Data.dll": {
+    "D:\\Projects\\dotnet-core-api\\Data\\Model\\Book.cs": {
+      "Data.Model.Book": {
+        "MongoDB.Bson.ObjectId Data.Model.Book::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Book::get_Name()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Data.Model.Book::get_Price()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Book::get_Category()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Book::get_Author()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Book::get_FirstName()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\Data\\Model\\ConfigSettings.cs": {
+      "Data.Model.ConfigSettings": {
+        "Data.Model.Logging Data.Model.ConfigSettings::get_Logging()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.ConfigSettings::get_AllowedHosts()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Mongosettings Data.Model.ConfigSettings::get_MongoSettings()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Logging": {
+        "Data.Model.Loglevel Data.Model.Logging::get_LogLevel()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Loglevel": {
+        "System.String Data.Model.Loglevel::get_Default()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Mongosettings": {
+        "System.String Data.Model.Mongosettings::get_ConnectionBook()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Mongosettings::get_Connection()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Mongosettings::get_DatabaseName()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\Data\\Model\\Temperatures.cs": {
+      "Data.Model.Temperatures": {
+        "System.String Data.Model.Temperatures::get_Id()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Name()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Summary()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Space()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Description()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_NeighborhoodOverview()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Notes()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Transit()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Access()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_Interaction()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_HouseRules()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_PropertyType()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_RoomType()": {
+          "Lines": {
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_BedType()": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Data.Model.Temperatures::get_MinimumNights()": {
+          "Lines": {
+            "72": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Data.Model.Temperatures::get_MaximumNights()": {
+          "Lines": {
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Temperatures::get_CancellationPolicy()": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Accommodates": {
+        "System.Int64 Data.Model.Accommodates::get_NumberInt()": {
+          "Lines": {
+            "150": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Address": {
+        "System.String Data.Model.Address::get_Street()": {
+          "Lines": {
+            "156": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Address::get_Suburb()": {
+          "Lines": {
+            "159": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Address::get_GovernmentArea()": {
+          "Lines": {
+            "162": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Address::get_Market()": {
+          "Lines": {
+            "165": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Address::get_Country()": {
+          "Lines": {
+            "168": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Address::get_CountryCode()": {
+          "Lines": {
+            "171": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Location Data.Model.Address::get_Location()": {
+          "Lines": {
+            "174": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Location": {
+        "System.String Data.Model.Location::get_Type()": {
+          "Lines": {
+            "180": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Coordinate[] Data.Model.Location::get_Coordinates()": {
+          "Lines": {
+            "183": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Data.Model.Location::get_IsLocationExact()": {
+          "Lines": {
+            "186": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Coordinate": {
+        "System.String Data.Model.Coordinate::get_NumberDouble()": {
+          "Lines": {
+            "192": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Availability": {
+        "Data.Model.Accommodates Data.Model.Availability::get_Availability30()": {
+          "Lines": {
+            "198": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Availability::get_Availability60()": {
+          "Lines": {
+            "201": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Availability::get_Availability90()": {
+          "Lines": {
+            "204": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Availability::get_Availability365()": {
+          "Lines": {
+            "207": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Bathrooms": {
+        "System.String Data.Model.Bathrooms::get_NumberDecimal()": {
+          "Lines": {
+            "213": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.CalendarLastScraped": {
+        "Data.Model.Date Data.Model.CalendarLastScraped::get_Date()": {
+          "Lines": {
+            "219": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Date": {
+        "System.String Data.Model.Date::get_NumberLong()": {
+          "Lines": {
+            "225": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Host": {
+        "System.Int64 Data.Model.Host::get_HostId()": {
+          "Lines": {
+            "232": 0
+          },
+          "Branches": []
+        },
+        "System.Uri Data.Model.Host::get_HostUrl()": {
+          "Lines": {
+            "235": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Host::get_HostName()": {
+          "Lines": {
+            "238": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Host::get_HostLocation()": {
+          "Lines": {
+            "241": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Host::get_HostAbout()": {
+          "Lines": {
+            "244": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Host::get_HostResponseTime()": {
+          "Lines": {
+            "247": 0
+          },
+          "Branches": []
+        },
+        "System.Uri Data.Model.Host::get_HostThumbnailUrl()": {
+          "Lines": {
+            "250": 0
+          },
+          "Branches": []
+        },
+        "System.Uri Data.Model.Host::get_HostPictureUrl()": {
+          "Lines": {
+            "253": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Host::get_HostNeighbourhood()": {
+          "Lines": {
+            "256": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Host::get_HostResponseRate()": {
+          "Lines": {
+            "259": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Data.Model.Host::get_HostIsSuperhost()": {
+          "Lines": {
+            "262": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Data.Model.Host::get_HostHasProfilePic()": {
+          "Lines": {
+            "265": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Data.Model.Host::get_HostIdentityVerified()": {
+          "Lines": {
+            "268": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Host::get_HostListingsCount()": {
+          "Lines": {
+            "271": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.Host::get_HostTotalListingsCount()": {
+          "Lines": {
+            "274": 0
+          },
+          "Branches": []
+        },
+        "System.String[] Data.Model.Host::get_HostVerifications()": {
+          "Lines": {
+            "277": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Images": {
+        "System.String Data.Model.Images::get_ThumbnailUrl()": {
+          "Lines": {
+            "283": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Images::get_MediumUrl()": {
+          "Lines": {
+            "286": 0
+          },
+          "Branches": []
+        },
+        "System.Uri Data.Model.Images::get_PictureUrl()": {
+          "Lines": {
+            "289": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Images::get_XlPictureUrl()": {
+          "Lines": {
+            "292": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.ReviewScores": {
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresAccuracy()": {
+          "Lines": {
+            "298": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresCleanliness()": {
+          "Lines": {
+            "301": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresCheckin()": {
+          "Lines": {
+            "304": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresCommunication()": {
+          "Lines": {
+            "307": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresLocation()": {
+          "Lines": {
+            "310": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresValue()": {
+          "Lines": {
+            "313": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.Accommodates Data.Model.ReviewScores::get_ReviewScoresRating()": {
+          "Lines": {
+            "316": 0
+          },
+          "Branches": []
+        }
+      },
+      "Data.Model.Review": {
+        "System.Int64 Data.Model.Review::get_Id()": {
+          "Lines": {
+            "323": 0
+          },
+          "Branches": []
+        },
+        "Data.Model.CalendarLastScraped Data.Model.Review::get_Date()": {
+          "Lines": {
+            "326": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Data.Model.Review::get_ListingId()": {
+          "Lines": {
+            "330": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Data.Model.Review::get_ReviewerId()": {
+          "Lines": {
+            "334": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Review::get_ReviewerName()": {
+          "Lines": {
+            "337": 0
+          },
+          "Branches": []
+        },
+        "System.String Data.Model.Review::get_Comments()": {
+          "Lines": {
+            "340": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "DotNetCore.API.dll": {
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\Home\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "3": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\Home\\Privacy.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\JQuery\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_JQuery_Index/<<ExecuteAsync>b__10_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_JQuery_Index/<<ExecuteAsync>b__10_1>d::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\Shared\\Error.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared_Error/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "14": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\Shared\\_Layout.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__13_0>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__13_0>d::MoveNext()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__13_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__13_1>d::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "158": 0
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 700,
+              "EndOffset": 702,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 700,
+              "EndOffset": 813,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Views\\_ViewStart.cshtml": {
+      "AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Program.cs": {
+      "DotNetCore.API.Program": {
+        "System.Void DotNetCore.API.Program::Main(System.String[])": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 45,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 87,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder DotNetCore.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Startup.cs": {
+      "DotNetCore.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration DotNetCore.API.Startup::get_Configuration()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "188": 0
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 13,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void DotNetCore.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "201": 0,
+            "202": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "215": 0,
+            "221": 0,
+            "222": 0,
+            "228": 0,
+            "235": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "248": 0,
+            "249": 0,
+            "251": 0,
+            "253": 0,
+            "255": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0
+          },
+          "Branches": [
+            {
+              "Line": 193,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void DotNetCore.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\DomainDrivenDesign.cs": {
+      "DotNetCore.API.Models.StockItem": {
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_StockItemID()": {
+          "Lines": {
+            "20": 67
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_StockItemName()": {
+          "Lines": {
+            "22": 64
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_SupplierID()": {
+          "Lines": {
+            "24": 62
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_ColorID()": {
+          "Lines": {
+            "26": 12
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_UnitPackageID()": {
+          "Lines": {
+            "28": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_OuterPackageID()": {
+          "Lines": {
+            "30": 61
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_Brand()": {
+          "Lines": {
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_Size()": {
+          "Lines": {
+            "34": 1
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_LeadTimeDays()": {
+          "Lines": {
+            "36": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_QuantityPerOuter()": {
+          "Lines": {
+            "38": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> DotNetCore.API.Models.StockItem::get_IsChillerStock()": {
+          "Lines": {
+            "40": 61
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_Barcode()": {
+          "Lines": {
+            "42": 1
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.StockItem::get_TaxRate()": {
+          "Lines": {
+            "44": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.StockItem::get_UnitPrice()": {
+          "Lines": {
+            "46": 62
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.StockItem::get_RecommendedRetailPrice()": {
+          "Lines": {
+            "48": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.StockItem::get_TypicalWeightPerUnit()": {
+          "Lines": {
+            "50": 61
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_MarketingComments()": {
+          "Lines": {
+            "52": 16
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_InternalComments()": {
+          "Lines": {
+            "54": 1
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_CustomFields()": {
+          "Lines": {
+            "56": 61
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_Tags()": {
+          "Lines": {
+            "58": 61
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.StockItem::get_SearchDetails()": {
+          "Lines": {
+            "60": 61
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.StockItem::get_LastEditedBy()": {
+          "Lines": {
+            "62": 61
+          },
+          "Branches": []
+        },
+        "System.DateTime DotNetCore.API.Models.StockItem::get_ValidFrom()": {
+          "Lines": {
+            "64": 61
+          },
+          "Branches": []
+        },
+        "System.DateTime DotNetCore.API.Models.StockItem::get_ValidTo()": {
+          "Lines": {
+            "66": 61
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Models.StockItem::.ctor()": {
+          "Lines": {
+            "11": 62,
+            "12": 62,
+            "13": 62
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Models.StockItem::.ctor(System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.StockItemsConfiguration": {
+        "System.Void DotNetCore.API.Models.StockItemsConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DotNetCore.API.Models.StockItem>)": {
+          "Lines": {
+            "72": 1,
+            "74": 1,
+            "77": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "127": 1,
+            "128": 1,
+            "129": 1,
+            "130": 1,
+            "133": 1,
+            "134": 1,
+            "135": 1,
+            "136": 1,
+            "138": 1
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.WideWorldImportersDbContext": {
+        "System.Void DotNetCore.API.Models.WideWorldImportersDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "149": 1,
+            "152": 1,
+            "153": 1,
+            "155": 1,
+            "156": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<DotNetCore.API.Models.StockItem> DotNetCore.API.Models.WideWorldImportersDbContext::get_StockItems()": {
+          "Lines": {
+            "158": 70
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Models.WideWorldImportersDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<DotNetCore.API.Models.WideWorldImportersDbContext>)": {
+          "Lines": {
+            "144": 5,
+            "145": 5,
+            "146": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\ErrorDetails.cs": {
+      "DotNetCore.API.Models.ErrorDetails": {
+        "System.Int32 DotNetCore.API.Models.ErrorDetails::get_StatusCode()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.ErrorDetails::get_Message()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.ErrorDetails::ToString()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\ErrorViewModel.cs": {
+      "DotNetCore.API.Models.ErrorViewModel": {
+        "System.String DotNetCore.API.Models.ErrorViewModel::get_RequestId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DotNetCore.API.Models.ErrorViewModel::get_ShowRequestId()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\Extensions.cs": {
+      "DotNetCore.API.Models.WideWorldImportersDbContextExtensions": {
+        "System.Linq.IQueryable`1<DotNetCore.API.Models.StockItem> DotNetCore.API.Models.WideWorldImportersDbContextExtensions::GetStockItems(DotNetCore.API.Models.WideWorldImportersDbContext,System.Int32,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "11": 1,
+            "13": 1,
+            "16": 1,
+            "17": 0,
+            "20": 1,
+            "21": 0,
+            "24": 1,
+            "25": 0,
+            "28": 1,
+            "29": 0,
+            "32": 1,
+            "33": 0,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 71,
+              "EndOffset": 173,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 188,
+              "EndOffset": 190,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 188,
+              "EndOffset": 290,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 305,
+              "EndOffset": 307,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 305,
+              "EndOffset": 407,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 422,
+              "EndOffset": 424,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 422,
+              "EndOffset": 524,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 539,
+              "EndOffset": 541,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 539,
+              "EndOffset": 641,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Models.WideWorldImportersDbContextExtensions/<GetStockItemsAsync>d__1": {
+        "System.Void DotNetCore.API.Models.WideWorldImportersDbContextExtensions/<GetStockItemsAsync>d__1::MoveNext()": {
+          "Lines": {
+            "39": 3
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.WideWorldImportersDbContextExtensions/<GetStockItemsByStockItemNameAsync>d__2": {
+        "System.Void DotNetCore.API.Models.WideWorldImportersDbContextExtensions/<GetStockItemsByStockItemNameAsync>d__2::MoveNext()": {
+          "Lines": {
+            "42": 1
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.IQueryableExtensions": {
+        "System.Linq.IQueryable`1<TModel> DotNetCore.API.Models.IQueryableExtensions::Paging(System.Linq.IQueryable`1<TModel>,System.Int32,System.Int32)": {
+          "Lines": {
+            "48": 1
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 2,
+              "EndOffset": 8,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 6,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\Requests.cs": {
+      "DotNetCore.API.Models.PostStockItemsRequest": {
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_StockItemID()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_StockItemName()": {
+          "Lines": {
+            "14": 3
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_SupplierID()": {
+          "Lines": {
+            "17": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_ColorID()": {
+          "Lines": {
+            "19": 1
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_UnitPackageID()": {
+          "Lines": {
+            "22": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_OuterPackageID()": {
+          "Lines": {
+            "25": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_Brand()": {
+          "Lines": {
+            "28": 1
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_Size()": {
+          "Lines": {
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_LeadTimeDays()": {
+          "Lines": {
+            "34": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_QuantityPerOuter()": {
+          "Lines": {
+            "37": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> DotNetCore.API.Models.PostStockItemsRequest::get_IsChillerStock()": {
+          "Lines": {
+            "40": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_Barcode()": {
+          "Lines": {
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.PostStockItemsRequest::get_TaxRate()": {
+          "Lines": {
+            "46": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.PostStockItemsRequest::get_UnitPrice()": {
+          "Lines": {
+            "49": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.PostStockItemsRequest::get_RecommendedRetailPrice()": {
+          "Lines": {
+            "51": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.PostStockItemsRequest::get_TypicalWeightPerUnit()": {
+          "Lines": {
+            "54": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_MarketingComments()": {
+          "Lines": {
+            "56": 1
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_InternalComments()": {
+          "Lines": {
+            "58": 1
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_CustomFields()": {
+          "Lines": {
+            "60": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_Tags()": {
+          "Lines": {
+            "62": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PostStockItemsRequest::get_SearchDetails()": {
+          "Lines": {
+            "65": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PostStockItemsRequest::get_LastEditedBy()": {
+          "Lines": {
+            "68": 2
+          },
+          "Branches": []
+        },
+        "System.DateTime DotNetCore.API.Models.PostStockItemsRequest::get_ValidFrom()": {
+          "Lines": {
+            "70": 2
+          },
+          "Branches": []
+        },
+        "System.DateTime DotNetCore.API.Models.PostStockItemsRequest::get_ValidTo()": {
+          "Lines": {
+            "72": 2
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.PutStockItemsRequest": {
+        "System.String DotNetCore.API.Models.PutStockItemsRequest::get_StockItemName()": {
+          "Lines": {
+            "79": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PutStockItemsRequest::get_SupplierID()": {
+          "Lines": {
+            "82": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> DotNetCore.API.Models.PutStockItemsRequest::get_ColorID()": {
+          "Lines": {
+            "84": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> DotNetCore.API.Models.PutStockItemsRequest::get_UnitPrice()": {
+          "Lines": {
+            "87": 1
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.Extensions": {
+        "DotNetCore.API.Models.StockItem DotNetCore.API.Models.Extensions::ToEntity(DotNetCore.API.Models.PostStockItemsRequest)": {
+          "Lines": {
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1,
+            "119": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\Responses.cs": {
+      "DotNetCore.API.Models.Response": {
+        "System.Int32 DotNetCore.API.Models.Response::get_StatusCode()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Response::get_Message()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DotNetCore.API.Models.Response::get_DidError()": {
+          "Lines": {
+            "41": 4
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Response::get_ErrorMessage()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Response::ToString()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.SingleResponse`1": {
+        "System.String DotNetCore.API.Models.SingleResponse`1::get_Message()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DotNetCore.API.Models.SingleResponse`1::get_DidError()": {
+          "Lines": {
+            "55": 4
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.SingleResponse`1::get_ErrorMessage()": {
+          "Lines": {
+            "57": 0
+          },
+          "Branches": []
+        },
+        "TModel DotNetCore.API.Models.SingleResponse`1::get_Model()": {
+          "Lines": {
+            "59": 4
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.ListResponse`1": {
+        "System.String DotNetCore.API.Models.ListResponse`1::get_Message()": {
+          "Lines": {
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DotNetCore.API.Models.ListResponse`1::get_DidError()": {
+          "Lines": {
+            "66": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.ListResponse`1::get_ErrorMessage()": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<TModel> DotNetCore.API.Models.ListResponse`1::get_Model()": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.PagedResponse`1": {
+        "System.String DotNetCore.API.Models.PagedResponse`1::get_Message()": {
+          "Lines": {
+            "75": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DotNetCore.API.Models.PagedResponse`1::get_DidError()": {
+          "Lines": {
+            "77": 2
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.PagedResponse`1::get_ErrorMessage()": {
+          "Lines": {
+            "79": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<TModel> DotNetCore.API.Models.PagedResponse`1::get_Model()": {
+          "Lines": {
+            "81": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 DotNetCore.API.Models.PagedResponse`1::get_PageSize()": {
+          "Lines": {
+            "83": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 DotNetCore.API.Models.PagedResponse`1::get_PageNumber()": {
+          "Lines": {
+            "85": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 DotNetCore.API.Models.PagedResponse`1::get_ItemsCount()": {
+          "Lines": {
+            "87": 4
+          },
+          "Branches": []
+        },
+        "System.Double DotNetCore.API.Models.PagedResponse`1::get_PageCount()": {
+          "Lines": {
+            "90": 1
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 90,
+              "Offset": 12,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Models.ResponseExtensions": {
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Models.ResponseExtensions::ToHttpResponse(DotNetCore.API.Models.IResponse)": {
+          "Lines": {
+            "96": 2,
+            "97": 2,
+            "98": 2,
+            "99": 2
+          },
+          "Branches": [
+            {
+              "Line": 96,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 96,
+              "Offset": 13,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Models.ResponseExtensions::ToHttpResponse(DotNetCore.API.Models.ISingleResponse`1<TModel>)": {
+          "Lines": {
+            "102": 1,
+            "103": 1,
+            "105": 1,
+            "106": 0,
+            "107": 1,
+            "108": 0,
+            "110": 1,
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 105,
+              "Offset": 15,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 107,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 41,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Models.ResponseExtensions::ToHttpCreatedResponse(DotNetCore.API.Models.ISingleResponse`1<TModel>)": {
+          "Lines": {
+            "117": 1,
+            "118": 1,
+            "120": 1,
+            "121": 0,
+            "122": 1,
+            "123": 0,
+            "125": 1,
+            "126": 1,
+            "127": 1,
+            "128": 1,
+            "129": 1
+          },
+          "Branches": [
+            {
+              "Line": 120,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 15,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 41,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Models.ResponseExtensions::ToHttpResponse(DotNetCore.API.Models.IListResponse`1<TModel>)": {
+          "Lines": {
+            "132": 1,
+            "133": 1,
+            "135": 1,
+            "136": 0,
+            "137": 1,
+            "138": 0,
+            "140": 1,
+            "141": 1,
+            "142": 1,
+            "143": 1,
+            "144": 1
+          },
+          "Branches": [
+            {
+              "Line": 135,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 15,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 137,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 36,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\WeatherForecast.cs": {
+      "DotNetCore.API.Models.WeatherForecast": {
+        "System.DateTime DotNetCore.API.Models.WeatherForecast::get_Date()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 DotNetCore.API.Models.WeatherForecast::get_TemperatureC()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 DotNetCore.API.Models.WeatherForecast::get_TemperatureF()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.WeatherForecast::get_Summary()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\Token\\LoginInputModel.cs": {
+      "DotNetCore.API.Models.Token.LoginInputModel": {
+        "System.String DotNetCore.API.Models.Token.LoginInputModel::get_Username()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Token.LoginInputModel::get_Password()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Models\\Token\\Token.cs": {
+      "DotNetCore.API.Models.Token.Token": {
+        "System.String DotNetCore.API.Models.Token.Token::get_TokenType()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 DotNetCore.API.Models.Token.Token::get_ExpiresIn()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Token.Token::get_RefreshToken()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 DotNetCore.API.Models.Token.Token::get_XRefreshTokenExpiresIn()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Models.Token.Token::get_AccessToken()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "DotNetCore.API.Models.Token.Token DotNetCore.API.Models.Token.Token::FromJson(System.String)": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.Token.Serialize": {
+        "System.String DotNetCore.API.Models.Token.Serialize::ToJson(DotNetCore.API.Models.Token.Token)": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Models.Token.Converter": {
+        "System.Void DotNetCore.API.Models.Token.Converter::.cctor()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Migrations\\20190823065500_Warehouse.cs": {
+      "DotNetCore.API.Migrations.Warehouse": {
+        "System.Void DotNetCore.API.Migrations.Warehouse::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "329": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "345": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "356": 0,
+            "358": 0,
+            "359": 0,
+            "360": 0,
+            "361": 0,
+            "362": 0,
+            "363": 0,
+            "364": 0,
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "375": 0,
+            "376": 0,
+            "377": 0,
+            "378": 0,
+            "379": 0,
+            "380": 0,
+            "382": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "387": 0,
+            "388": 0,
+            "389": 0,
+            "390": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0,
+            "394": 0,
+            "395": 0,
+            "396": 0,
+            "397": 0,
+            "398": 0,
+            "399": 0,
+            "400": 0,
+            "402": 0,
+            "403": 0,
+            "404": 0,
+            "405": 0,
+            "407": 0,
+            "408": 0,
+            "409": 0,
+            "410": 0,
+            "411": 0,
+            "412": 0,
+            "414": 0,
+            "415": 0,
+            "416": 0,
+            "417": 0,
+            "419": 0,
+            "420": 0,
+            "421": 0,
+            "422": 0,
+            "424": 0,
+            "425": 0,
+            "426": 0,
+            "427": 0,
+            "429": 0,
+            "430": 0,
+            "431": 0,
+            "432": 0,
+            "434": 0,
+            "435": 0,
+            "436": 0,
+            "437": 0,
+            "438": 0,
+            "439": 0,
+            "440": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Migrations.Warehouse::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "443": 0,
+            "444": 0,
+            "445": 0,
+            "446": 0,
+            "448": 0,
+            "449": 0,
+            "450": 0,
+            "453": 0,
+            "454": 0,
+            "456": 0,
+            "457": 0,
+            "459": 0,
+            "460": 0,
+            "462": 0,
+            "463": 0,
+            "465": 0,
+            "466": 0,
+            "468": 0,
+            "469": 0,
+            "471": 0,
+            "472": 0,
+            "473": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Migrations\\20190823065500_Warehouse.Designer.cs": {
+      "DotNetCore.API.Migrations.Warehouse": {
+        "System.Void DotNetCore.API.Migrations.Warehouse::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Migrations\\WideWorldImportersDbContextModelSnapshot.cs": {
+      "DotNetCore.API.Migrations.WideWorldImportersDbContextModelSnapshot": {
+        "System.Void DotNetCore.API.Migrations.WideWorldImportersDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Extensions\\ExceptionMiddlewareExtensions.cs": {
+      "DotNetCore.API.Extensions.ExceptionMiddlewareExtensions": {
+        "System.Void DotNetCore.API.Extensions.ExceptionMiddlewareExtensions::ConfigureExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder,LoggerService.ILoggerManager)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 9,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void DotNetCore.API.Extensions.ExceptionMiddlewareExtensions::ConfigureCustomExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Extensions.ExceptionMiddlewareExtensions/<>c__DisplayClass0_0/<<ConfigureExceptionHandler>b__1>d": {
+        "System.Void DotNetCore.API.Extensions.ExceptionMiddlewareExtensions/<>c__DisplayClass0_0/<<ConfigureExceptionHandler>b__1>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 95,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 95,
+              "EndOffset": 326,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\CustomExceptionMiddleware\\ExceptionMiddleware.cs": {
+      "DotNetCore.API.CustomExceptionMiddleware.ExceptionMiddleware": {
+        "System.Threading.Tasks.Task DotNetCore.API.CustomExceptionMiddleware.ExceptionMiddleware::HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.CustomExceptionMiddleware.ExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,LoggerService.ILoggerManager)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.CustomExceptionMiddleware.ExceptionMiddleware/<InvokeAsync>d__3": {
+        "System.Void DotNetCore.API.CustomExceptionMiddleware.ExceptionMiddleware/<InvokeAsync>d__3::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\AbstractAndInterfaceController.cs": {
+      "DotNetCore.API.Controllers.Employee": {
+        "System.String DotNetCore.API.Controllers.Employee::GetCurrentUtcDateTime()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String DotNetCore.API.Controllers.Employee::GetEmployeeFirstName()": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.AbstractClassOne": {
+        "System.String DotNetCore.API.Controllers.AbstractClassOne::GetStringData()": {
+          "Lines": {
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.AbstractClassOne::.ctor()": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "98": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.AbstractClassTwo": {
+        "System.String DotNetCore.API.Controllers.AbstractClassTwo::GetEmployeeFirstName()": {
+          "Lines": {
+            "115": 0,
+            "116": 0,
+            "117": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.AbstractClassTwo::.ctor()": {
+          "Lines": {
+            "113": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\EncryptDecryptController.cs": {
+      "DotNetCore.API.Controllers.EncryptDecryptController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.String> DotNetCore.API.Controllers.EncryptDecryptController::Encrypt(System.String,System.String)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.String> DotNetCore.API.Controllers.EncryptDecryptController::Decrypt(System.String,System.String)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.EncryptDecryptController::.ctor(LoggerService.ILoggerManager,EncryptionDecryption.IEncryptDecrypt)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\HomeController.cs": {
+      "DotNetCore.API.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.HomeController::Index()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.HomeController::Privacy()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.HomeController::Error()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void DotNetCore.API.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<DotNetCore.API.Controllers.HomeController>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\JQueryController.cs": {
+      "DotNetCore.API.Controllers.JQueryController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.JQueryController::Index()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\MongoDBBookController.cs": {
+      "DotNetCore.API.Controllers.MongoDBBookController": {
+        "System.Void DotNetCore.API.Controllers.MongoDBBookController::.ctor(MongoDBUtility.Interface.IMongoDBUtilityContext)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.MongoDBBookController/<Get>d__3": {
+        "System.Void DotNetCore.API.Controllers.MongoDBBookController/<Get>d__3::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.MongoDBBookController/<Get>d__4": {
+        "System.Void DotNetCore.API.Controllers.MongoDBBookController/<Get>d__4::MoveNext()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 29,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\MongoDBController.cs": {
+      "DotNetCore.API.Controllers.MongoDBController": {
+        "System.Void DotNetCore.API.Controllers.MongoDBController::.ctor(MongoDBUtility.Interface.IMongoDBUtilityContext)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.MongoDBController/<GetTemperatures>d__3": {
+        "System.Void DotNetCore.API.Controllers.MongoDBController/<GetTemperatures>d__3::MoveNext()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\MoviesController.cs": {
+      "DotNetCore.API.Controllers.MoviesController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.MoviesController::Get()": {
+          "Lines": {
+            "15": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\TokenController.cs": {
+      "DotNetCore.API.Controllers.TokenController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult DotNetCore.API.Controllers.TokenController::Create(DotNetCore.API.Models.Token.LoginInputModel)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 17,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 40,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\ValuesController.cs": {
+      "DotNetCore.API.Controllers.ValuesController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.Collections.Generic.IEnumerable`1<System.String>> DotNetCore.API.Controllers.ValuesController::Get()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<System.String> DotNetCore.API.Controllers.ValuesController::Get(System.Int32)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.ValuesController::Post(System.String)": {
+          "Lines": {
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.ValuesController::Put(System.Int32,System.String)": {
+          "Lines": {
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.ValuesController::Delete(System.Int32)": {
+          "Lines": {
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.ValuesController::.ctor(LoggerService.ILoggerManager)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\WarehouseController.cs": {
+      "DotNetCore.API.Controllers.WarehouseController": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController::.ctor(Microsoft.Extensions.Logging.ILogger`1<DotNetCore.API.Controllers.WarehouseController>,DotNetCore.API.Models.WideWorldImportersDbContext)": {
+          "Lines": {
+            "21": 5,
+            "22": 5,
+            "23": 5,
+            "24": 5,
+            "25": 5
+          },
+          "Branches": []
+        }
+      },
+      "DotNetCore.API.Controllers.WarehouseController/<DeleteStockItemAsync>d__7": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController/<DeleteStockItemAsync>d__7::MoveNext()": {
+          "Lines": {
+            "247": 1,
+            "248": 1,
+            "250": 1,
+            "253": 1,
+            "255": 1,
+            "258": 1,
+            "259": 0,
+            "262": 1,
+            "265": 1,
+            "266": 1,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "272": 0,
+            "273": 0,
+            "275": 1,
+            "276": 1
+          },
+          "Branches": [
+            {
+              "Line": 248,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 248,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 258,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 258,
+              "Offset": 248,
+              "EndOffset": 267,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 272,
+              "Offset": 472,
+              "EndOffset": 474,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 272,
+              "Offset": 472,
+              "EndOffset": 477,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Controllers.WarehouseController/<GetStockItemAsync>d__4": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController/<GetStockItemAsync>d__4::MoveNext()": {
+          "Lines": {
+            "99": 1,
+            "100": 1,
+            "102": 1,
+            "105": 1,
+            "107": 1,
+            "108": 1,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "117": 1,
+            "118": 1
+          },
+          "Branches": [
+            {
+              "Line": 100,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 100,
+              "Offset": 27,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 304,
+              "EndOffset": 306,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 304,
+              "EndOffset": 309,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Controllers.WarehouseController/<GetStockItemsAsync>d__3": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController/<GetStockItemsAsync>d__3::MoveNext()": {
+          "Lines": {
+            "48": 1,
+            "49": 1,
+            "51": 1,
+            "54": 1,
+            "56": 1,
+            "59": 1,
+            "60": 1,
+            "63": 1,
+            "66": 1,
+            "68": 1,
+            "70": 1,
+            "71": 1,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "80": 1,
+            "81": 1
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 610,
+              "EndOffset": 612,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 610,
+              "EndOffset": 615,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 694,
+              "EndOffset": 696,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 694,
+              "EndOffset": 699,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Controllers.WarehouseController/<PostStockItemAsync>d__5": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController/<PostStockItemAsync>d__5::MoveNext()": {
+          "Lines": {
+            "136": 1,
+            "137": 1,
+            "139": 1,
+            "142": 1,
+            "143": 1,
+            "144": 1,
+            "146": 1,
+            "147": 0,
+            "149": 1,
+            "150": 0,
+            "153": 1,
+            "156": 1,
+            "159": 1,
+            "162": 1,
+            "163": 1,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "169": 0,
+            "170": 0,
+            "172": 1,
+            "173": 1
+          },
+          "Branches": [
+            {
+              "Line": 137,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 137,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 255,
+              "EndOffset": 257,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 255,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 149,
+              "Offset": 307,
+              "EndOffset": 309,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 149,
+              "Offset": 307,
+              "EndOffset": 326,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 167,
+              "Offset": 570,
+              "EndOffset": 572,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 167,
+              "Offset": 570,
+              "EndOffset": 576,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 604,
+              "EndOffset": 606,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 604,
+              "EndOffset": 609,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotNetCore.API.Controllers.WarehouseController/<PutStockItemAsync>d__6": {
+        "System.Void DotNetCore.API.Controllers.WarehouseController/<PutStockItemAsync>d__6::MoveNext()": {
+          "Lines": {
+            "194": 1,
+            "195": 1,
+            "197": 1,
+            "200": 1,
+            "202": 1,
+            "205": 1,
+            "206": 0,
+            "209": 1,
+            "210": 1,
+            "211": 1,
+            "212": 1,
+            "215": 1,
+            "218": 1,
+            "219": 1,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "225": 0,
+            "226": 0,
+            "228": 1,
+            "229": 1
+          },
+          "Branches": [
+            {
+              "Line": 195,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 195,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 205,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 205,
+              "Offset": 248,
+              "EndOffset": 267,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 225,
+              "Offset": 564,
+              "EndOffset": 566,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 225,
+              "Offset": 564,
+              "EndOffset": 569,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\src\\DotNetCore.API\\Controllers\\WeatherForecastController.cs": {
+      "DotNetCore.API.Controllers.WeatherForecastController": {
+        "System.Collections.Generic.IEnumerable`1<DotNetCore.API.Models.WeatherForecast> DotNetCore.API.Controllers.WeatherForecastController::Get()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.WeatherForecastController::.ctor(Microsoft.Extensions.Logging.ILogger`1<DotNetCore.API.Controllers.WeatherForecastController>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void DotNetCore.API.Controllers.WeatherForecastController::.cctor()": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "EncryptionDecryption.dll": {
+    "D:\\Projects\\dotnet-core-api\\libraries\\EncryptionDecryption\\EncryptDecrypt.cs": {
+      "EncryptionDecryption.EncryptDecrypt": {
+        "System.String EncryptionDecryption.EncryptDecrypt::Encrypt(System.String,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String EncryptionDecryption.EncryptDecrypt::Decrypt(System.String,System.String)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Fiver.Security.Bearer.Helpers.dll": {
+    "D:\\Projects\\dotnet-core-api\\libraries\\Fiver.Security.Bearer.Helpers\\JwtSecurityKey.cs": {
+      "Fiver.Security.Bearer.Helpers.JwtSecurityKey": {
+        "Microsoft.IdentityModel.Tokens.SymmetricSecurityKey Fiver.Security.Bearer.Helpers.JwtSecurityKey::Create(System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\libraries\\Fiver.Security.Bearer.Helpers\\JwtToken.cs": {
+      "Fiver.Security.Bearer.Helpers.JwtToken": {
+        "System.DateTime Fiver.Security.Bearer.Helpers.JwtToken::get_ValidTo()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Fiver.Security.Bearer.Helpers.JwtToken::get_Value()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Fiver.Security.Bearer.Helpers.JwtToken::.ctor(System.IdentityModel.Tokens.Jwt.JwtSecurityToken)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Projects\\dotnet-core-api\\libraries\\Fiver.Security.Bearer.Helpers\\JwtTokenBuilder.cs": {
+      "Fiver.Security.Bearer.Helpers.JwtTokenBuilder": {
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddSecurityKey(Microsoft.IdentityModel.Tokens.SecurityKey)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddSubject(System.String)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddIssuer(System.String)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddAudience(System.String)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddClaim(System.String,System.String)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddClaims(System.Collections.Generic.Dictionary`2<System.String,System.String>)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtTokenBuilder Fiver.Security.Bearer.Helpers.JwtTokenBuilder::AddExpiry(System.Int32)": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "Fiver.Security.Bearer.Helpers.JwtToken Fiver.Security.Bearer.Helpers.JwtTokenBuilder::Build()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": []
+        },
+        "System.Void Fiver.Security.Bearer.Helpers.JwtTokenBuilder::EnsureArguments()": {
+          "Lines": {
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 38,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 94,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 94,
+              "Offset": 64,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 90,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Fiver.Security.Bearer.Helpers.JwtTokenBuilder::.ctor()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "LoggerService.dll": {
+    "D:\\Projects\\dotnet-core-api\\libraries\\LoggerService\\LoggerManager.cs": {
+      "LoggerService.LoggerManager": {
+        "System.Void LoggerService.LoggerManager::LogDebug(System.String)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void LoggerService.LoggerManager::LogError(System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void LoggerService.LoggerManager::LogInfo(System.String)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void LoggerService.LoggerManager::LogWarn(System.String)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void LoggerService.LoggerManager::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void LoggerService.LoggerManager::.cctor()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "MongoDBUtility.dll": {
+    "D:\\Projects\\dotnet-core-api\\libraries\\MongoDBUtility\\Context\\MongoDBUtilityContext.cs": {
+      "MongoDBUtility.Context.MongoDBUtilityContext": {
+        "MongoDB.Driver.IMongoDatabase MongoDBUtility.Context.MongoDBUtilityContext::get__db()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.MongoClient MongoDBUtility.Context.MongoDBUtilityContext::get__mongoClient()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.IClientSessionHandle MongoDBUtility.Context.MongoDBUtilityContext::get_Session()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.IMongoCollection`1<Data.Model.Book> MongoDBUtility.Context.MongoDBUtilityContext::get_BookCollection()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "MongoDB.Driver.IMongoCollection`1<T> MongoDBUtility.Context.MongoDBUtilityContext::GetCollection(System.String)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 9,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MongoDBUtility.Context.MongoDBUtilityContext::.ctor(Microsoft.Extensions.Options.IOptions`1<Data.Model.Mongosettings>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
