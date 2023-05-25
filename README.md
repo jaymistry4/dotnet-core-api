@@ -196,3 +196,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<!-- PS D:\..\YOUR PATH\..\dotnet-core-api\test\DotNetCore.API.UnitTests> dotnet test /p:CollectCoverage=true -->
