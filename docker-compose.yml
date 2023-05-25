@@ -1,0 +1,61 @@
+################################################
+#           Docker Compose Commands            #
+################################################
+# 1. To start docker compose file in background
+#   -> docker-compose -d
+# 2. To stop docker compose file from backgroud
+#   -> docker-compose down
+#
+##################################################
+# References:
+# 1. Redis: 
+# https://hub.docker.com/r/bitnami/redis/
+# https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml
+#
+################################################
+
+version: "1"
+services:
+
+################################################
+#           Dotnet core project                #
+################################################
+
+    # dotnetcore:
+    #     build: .
+    #     container_name: dotnetcore_container
+    #     ports:
+    #         - "8010:80"
+
+  dotnetcore:
+    container_name: dotnetcore_container
+    image: ${DOCKER_REGISTRY-}dotnetcore
+    build:
+      context: .
+      dockerfile: src/DotNetCore.API/Dockerfile        
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+        - "8010:80"
+          
+################################################
+#                    Redis                     #
+################################################
+
+  redis:
+    container_name: redis_container
+    image: docker.io/bitnami/redis:7.0
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+    ports:
+      - '6379:6379'
+    volumes:
+      - 'redis_data:/bitnami/redis/data'
+
+volumes:
+  redis_data:
+    driver: local
+
+       
