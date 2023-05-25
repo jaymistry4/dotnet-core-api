@@ -8,10 +8,17 @@
 #
 ##################################################
 # References:
+#
 # 1. Redis: 
 # https://hub.docker.com/r/bitnami/redis/
 # https://raw.githubusercontent.com/bitnami/containers/main/bitnami/redis/docker-compose.yml
+# 
+# 2. mongodb
+# https://hub.docker.com/r/bitnami/mongodb
+# https://raw.githubusercontent.com/bitnami/containers/main/bitnami/mongodb/docker-compose.yml
 #
+# 3.
+# 
 ################################################
 
 version: "1"
@@ -38,7 +45,7 @@ services:
     ports:
       - "8010:80"
     depends_on:
-      - dotnetcore_database
+      - microsoftsql_database
           
 ################################################
 #                    Redis                     #
@@ -60,15 +67,37 @@ services:
 #               MS SQL Database                #
 ################################################
 
-  dotnetcore_database:
+  microsoftsql_database:
     image: "mcr.microsoft.com/mssql/server:2019-latest"
-    container_name: dotnetcore_mssql_server
+    container_name: microsoftsql_server_container
     environment:
-        SA_PASSWORD: "dotnetcore_db_password"
+        SA_PASSWORD: "Admin@123"
         ACCEPT_EULA: "Y"
         MSSQL_PID: "Express"
+    volumes:
+      - 'microsoftsql_data:/bitnami/server'
+
+################################################
+#                   Mongodb                    #
+################################################
+
+  mongodb:
+    image: docker.io/bitnami/mongodb:6.0
+    container_name: mongodb_container
+    restart: unless-stopped
+    environment:
+      - MONGO_ININDB_DATABASE=dotnetcore_db
+      - MONGO_INITDB_ROOT_USERNAME=dncdb
+      - MONGO_INITDB_ROOT_PASSWORD=dncdb!123
+    ports:
+      - "27017:27017"
+    volumes:
+      - 'mongodb_data:/bitnami/mongodb'
 
 volumes:
   redis_data:
     driver: local
-  dotnetcore_data:        
+  mongodb_data:
+    driver: local
+  microsoftsql_data:
+    driver: local
