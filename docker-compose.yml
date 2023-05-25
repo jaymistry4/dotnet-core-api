@@ -36,7 +36,9 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-        - "8010:80"
+      - "8010:80"
+    depends_on:
+      - dotnetcore_database
           
 ################################################
 #                    Redis                     #
@@ -54,8 +56,19 @@ services:
     volumes:
       - 'redis_data:/bitnami/redis/data'
 
+################################################
+#               MS SQL Database                #
+################################################
+
+  dotnetcore_database:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: dotnetcore_mssql_server
+    environment:
+        SA_PASSWORD: "dotnetcore_db_password"
+        ACCEPT_EULA: "Y"
+        MSSQL_PID: "Express"
+
 volumes:
   redis_data:
     driver: local
-
-       
+  dotnetcore_data:        
