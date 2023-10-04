@@ -8,6 +8,7 @@ using LoggerService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -82,6 +83,7 @@ namespace DotNetCore.API
                         };
                     });
 
+            //Read the document here -> https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-7.0
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("Member",
@@ -112,6 +114,10 @@ namespace DotNetCore.API
             services.AddTransient<IEncryptDecrypt, EncryptDecrypt>();
 
             #region Swagger
+
+            //Note: 
+            // "Fetch error undefined ./swagger/v1/swagger.json"
+            // To get swagger error -> https://localhost:5001/swagger/v1/swagger.json
 
             services.AddSwaggerGen(options =>
             {
@@ -152,7 +158,7 @@ namespace DotNetCore.API
             #endregion
 
             #region Rate Limiting
-            
+
             services.AddMemoryCache();
             services.Configure<IpRateLimitOptions>(options =>
             {
@@ -176,7 +182,18 @@ namespace DotNetCore.API
             services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
             services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
             services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
-            services.AddInMemoryRateLimiting(); 
+            services.AddInMemoryRateLimiting();
+
+            #endregion
+
+            #region Api Versioning
+
+            services.AddApiVersioning(config =>
+                {
+                    config.DefaultApiVersion = new ApiVersion(1, 0);
+                    config.AssumeDefaultVersionWhenUnspecified = true;
+                    config.ReportApiVersions = true;
+                });
 
             #endregion
 

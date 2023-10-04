@@ -1,12 +1,24 @@
 ################################################
 #           Docker Compose Commands            #
 ################################################
-# 1. To start docker compose file in background
-#   -> docker-compose -d
-# 2. To stop docker compose file from backgroud
+# 1. 
+#   To start docker by building image
+#   -> docker-compose up --build
+#
+#   To start docker compose file in background
+#   -> docker-compose up -d
+#
+#
+# 2. 
+#   To stop docker compose file from backgroud
 #   -> docker-compose down
 #
+# 3. 
+#   To break the running project
+#   -> ctrl + c 
+#
 ##################################################
+#
 # References:
 #
 # 1. Redis: 
@@ -19,6 +31,7 @@
 #
 # 3.
 # 
+#
 ################################################
 
 version: "1"
@@ -42,10 +55,15 @@ services:
       dockerfile: src/DotNetCore.API/Dockerfile        
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - REDIS_CONNECTION_STRING= redis:6379
     ports:
       - "8010:80"
+    command: 
+      echo "test"
     depends_on:
-      - microsoftsql_database
+      - postgres
+      - redis
+    #  - microsoftsql_database
           
 ################################################
 #                    Redis                     #
@@ -57,7 +75,7 @@ services:
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
-      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL      
     ports:
       - '6379:6379'
     volumes:
@@ -94,10 +112,29 @@ services:
     volumes:
       - 'mongodb_data:/bitnami/mongodb'
 
+################################################
+#                   Postgres                   #
+################################################
+
+  postgres:
+    image: "postgres:latest"
+    container_name: postgres_server
+    restart: "always"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=yourdatabasename
+    volumes:
+      - pgdata:/var/lib/postgresql/data:z
+    ports:
+      - 5433:5432
+
 volumes:
   redis_data:
     driver: local
   mongodb_data:
     driver: local
   microsoftsql_data:
+    driver: local
+  pgdata:
     driver: local
