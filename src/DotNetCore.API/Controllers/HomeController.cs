@@ -1,6 +1,6 @@
-﻿using DotNetCore.API.Models;
+﻿using BenchmarkDotNet.Attributes;
+using DotNetCore.API.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,6 +16,7 @@ namespace DotNetCore.API.Controllers
             _logger = logger;
         }
 
+        [Benchmark]
         public IActionResult Index()
         {
             return View();
