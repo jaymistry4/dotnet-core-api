@@ -1,0 +1,13 @@
+{
+	"sdk": {
+		"version": "8.0.0",
+		"rollForward": "latestMinor"
+	},
+	"tools": {
+		"dotnet": "8.0.0"
+	},
+	"msbuild-sdks": {
+		"Microsoft.DotNet.Arcade.Sdk": "8.0.0",
+		"Microsoft.DotNet.Helix.Sdk": "8.0.0"
+	}
+}

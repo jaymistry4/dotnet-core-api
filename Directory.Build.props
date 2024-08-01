@@ -1,0 +1,53 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors> -->
+    <UserSecretsId>bcd9d1db-4eb9-4968-bc9b-22ced9433d54</UserSecretsId>
+    <ImplicitUsings>enabled</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Build">
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors> -->
+    <UserSecretsId>bcd9d1db-4eb9-4968-bc9b-22ced9433d54</UserSecretsId>
+    <ImplicitUsings>enabled</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <Authors>Jay Mistry</Authors>
+    <Company>Jay Mistry</Company>
+    <Copyright>© Jay Mistry. All rights reserved.</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jaymistry4/dotnet-core-api</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jaymistry4/dotnet-core-api.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/jaymistry4/dotnet-core-api/releases</PackageReleaseNotes>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup Label="Package References">
+    
+    <!-- You can add package references here or create a separate file with name Directory.Packages.props in root directory to add package references -->
+
+    <!-- <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" PrivateAssets="all"/> -->
+    <!-- <PackageReference Include="MinVer" PrivateAssets="all"/> -->
+    <!-- <PackageReference Include="StyleCop.Analyzers" PrivateAssets="all"/> -->
+
+    <!-- <PackageVersion Include="AspNetCoreRateLimit" Version="4.0.2" /> -->
+
+  </ItemGroup>
+
+</Project>

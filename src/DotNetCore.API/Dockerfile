@@ -8,6 +8,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 COPY . .
 COPY /libraries .
+#Need below line when running project with docker
+COPY Directory.Build.props .
+COPY Directory.Packages.props .
 
 RUN dotnet restore "src/DotNetCore.API/DotNetCore.API.csproj"
 COPY . .
