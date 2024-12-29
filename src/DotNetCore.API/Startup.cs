@@ -212,6 +212,10 @@ namespace DotNetCore.API
 
             #region Logger
 
+            // Setup NLog for Dependency injection
+            var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+
+
             LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), $"/nlog.{env.EnvironmentName}.config"));
             LogManager.Configuration.Variables["connectionString"] = Configuration["AppSettings:ConnectionString"];
             LogManager.KeepVariablesOnReload = true;
