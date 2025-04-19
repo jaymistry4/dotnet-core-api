@@ -13,6 +13,7 @@ using Microsoft.OpenApi.Models;
 using MongoDBUtility.Context;
 using MongoDBUtility.Interface;
 using NLog;
+using NLog.Web;
 using System.Reflection;
 
 namespace DotNetCore.API
@@ -151,6 +152,8 @@ namespace DotNetCore.API
 
             #region Rate Limiting
 
+            //Reference: https://github.com/Ganesan-Chandran/ASPNETCore_Samples/tree/main/Rate_Limit_In_DotNetCore
+
             services.AddMemoryCache();
             services.Configure<IpRateLimitOptions>(options =>
             {
@@ -165,7 +168,13 @@ namespace DotNetCore.API
                     {
                         Endpoint = "*",
                         Period = "10s",
-                        Limit = 5
+                        Limit = 10
+                    },
+                    new RateLimitRule
+                    {
+                        Endpoint = "GET:/employee/getAllEmployees",
+                        Period = "10s",
+                        Limit = 2,
                     }
                 };
             });
@@ -263,6 +272,8 @@ namespace DotNetCore.API
 
             app.UseRouting();
 
+            //NuGet install: Install - Package AspNetCoreRateLimit
+            //How to configure, read this -> https://github.com/stefanprodan/aspnetcoreratelimit/wiki/ipratelimitmiddleware
             app.UseIpRateLimiting();
 
             app.UseAuthorization();
@@ -272,6 +283,15 @@ namespace DotNetCore.API
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            app.Map("/map", mappedApp =>
+            {
+                mappedApp.Use(async (context, next) =>
+                {
+                    Console.WriteLine("Mapped middleware to /map");
+                    await context.Response.WriteAsync("Hello from the /map path");
+                });
             });
         }
     }

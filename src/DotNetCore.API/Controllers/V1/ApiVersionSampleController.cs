@@ -25,6 +25,8 @@ namespace DotNetCore.API.Controllers.V1
         [HttpGet]
         [SwaggerOperation("This is test method.", Tags = new[] { "ApiVersioning" })]
         [SwaggerResponse(StatusCodes.Status200OK, type: typeof(string), description: "This is okay response.")]
+        [Produces("application/json")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         //[Authorize(Policy = "Member")]
         public async Task<IActionResult> Get()
         {
