@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V2
 {
+    [ApiVersion("2.0")]
+    [ApiExplorerSettings(GroupName = "v2")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [Authorize(Policy = "Member")]
-    [Route("api/v1/[controller]")]
     public class MoviesController : Controller
     {
         [HttpGet]

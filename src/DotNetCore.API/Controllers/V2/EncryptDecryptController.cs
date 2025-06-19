@@ -2,9 +2,11 @@
 using LoggerService;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V2
 {
-    [Route("api/v1/[controller]")]
+    [ApiVersion("2.0")]
+    [ApiExplorerSettings(GroupName = "v2")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [ApiController]
     public class EncryptDecryptController : ControllerBase
     {

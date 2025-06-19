@@ -285,14 +285,6 @@ namespace DotNetCore.API
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.Map("/map", mappedApp =>
-            {
-                mappedApp.Use(async (context, next) =>
-                {
-                    Console.WriteLine("Mapped middleware to /map");
-                    await context.Response.WriteAsync("Hello from the /map path");
-                });
-            });
         }
     }
 #pragma warning restore CS1591

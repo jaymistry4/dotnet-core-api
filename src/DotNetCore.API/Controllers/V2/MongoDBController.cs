@@ -5,10 +5,12 @@ using MongoDBUtility.Interface;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V2
 {
+    [ApiVersion("2.0")]
+    [ApiExplorerSettings(GroupName = "v2")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [ApiController]
-    [Route("api/v1/[controller]")]
     public class MongoDBController : Controller
     {
         private readonly IMongoDBUtilityContext _context;

@@ -1,9 +1,6 @@
 ﻿using DotNetCore.API.Controllers.BaseControllers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Threading.Tasks;
 
 namespace DotNetCore.API.Controllers.V1
 {

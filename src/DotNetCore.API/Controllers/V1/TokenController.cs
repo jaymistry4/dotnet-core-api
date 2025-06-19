@@ -3,10 +3,12 @@ using Fiver.Security.Bearer.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V1
 {
+    [ApiVersion("1.0")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [AllowAnonymous]
-    [Route("api/v1/[controller]")]
     public class TokenController : Controller
     {
         /// <summary>

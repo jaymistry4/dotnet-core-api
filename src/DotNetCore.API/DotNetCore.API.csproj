@@ -31,6 +31,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Include="ProgramOld.txt" />
+	  <Compile Include="StartupOld.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="wwwroot\js\" />
 	</ItemGroup>
 

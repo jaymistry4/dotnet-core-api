@@ -1,9 +1,11 @@
 ﻿using Data.Model;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCore.API.Controllers.V1
+namespace DotNetCore.API.Controllers.V3
 {
-    [Route("employee")]
+    [ApiVersion("3.0")]
+    [ApiExplorerSettings(GroupName = "v3")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {

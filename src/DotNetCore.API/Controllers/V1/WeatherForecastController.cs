@@ -1,14 +1,12 @@
 ﻿using DotNetCore.API.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V1
 {
+    [ApiVersion("1.0")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [ApiController]
-    [Route("api/v1/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

@@ -1,12 +1,12 @@
 ﻿using LoggerService;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V1
 {
-    [ApiController]
-    [Route("api/v1/[controller]")]
+    [ApiVersion("1.0")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [Route("api/v{version:apiversion}/[controller]")]
+    [ApiController]    
     public class ValuesController : ControllerBase
     {
         private ILoggerManager _logger;

@@ -1,18 +1,18 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using DotNetCore.API.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using DotNetCore.API.Models;
 
-namespace DotNetCore.API.Controllers
+namespace DotNetCore.API.Controllers.V1
 {
 #pragma warning disable CS1591
 
+
+    [ApiVersion("1.0")]
+    [ApiExplorerSettings(GroupName = "v1")]
+    [Route("api/v{version:apiversion}/[controller]")]
     [Authorize(Policy = "Member")]
     [ApiController]
-    [Route("api/v1/[controller]")]
     public class WarehouseController : ControllerBase
     {
         protected readonly ILogger Logger;
